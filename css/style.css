@@ -1,0 +1,20 @@
+@import url(normlize.css);
+html, body, form {
+  background-color: background-color;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  width: 100%;
+  display: flex; }
+
+.content {
+  width: 100%;
+  display: flex; }
+
+.footer {
+  width: 100%;
+  display: flex; }
+
+/*# sourceMappingURL=style.css.map */

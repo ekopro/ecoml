@@ -9,13 +9,20 @@ module.exports = function(grunt) {
   		},
   		dist: {
   			files: {
-  				'./css/style.css': './sass/style.sass'
+  				'./css/style.css' : './sass/index.sass',
   			}
   		}
 	  },
 
     watch: {
-      files: ['./sass/style.sass'],
+      files: ['./sass/_base.sass',
+              './sass/_layout.sass',
+              './sass/_modules.sass',
+              './sass/_state.sass',
+              './sass/_utils.sass',
+              './sass/_vars.sass',
+              './sass/index.sass'
+            ],
       tasks: ['sass'],
     },
 
