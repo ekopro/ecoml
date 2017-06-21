@@ -1,20 +1,114 @@
 @import url(normlize.css);
+* {
+  box-sizing: border-box; }
+
 html, body, form {
   background-color: background-color;
   margin: 0;
+  padding: 0; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+nav {
+  display: inline-block; }
+
+h1 {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+.l-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch; }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start; }
+  .title--primary {
+    position: relative;
+    right: 8px; }
+  .title--second {
+    letter-spacing: 4px; }
+  .title--element {
+    display: none; }
+
+.ribbon {
+  display: inline;
+  position: absolute;
+  left: -1px;
+  transform: rotate(-45deg);
+  top: 31px; }
+
+.nav--dataUser {
+  text-align: center;
+  padding: 0; }
+
+.nav--dataUserElem {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.link {
+  text-align: center;
+  margin: 20px; }
+  .link--social {
+    margin: 20px; }
+
+.primaryNav {
   padding: 0;
-  box-sizing: border-box; }
+  display: block;
+  margin: auto;
+  margin-top: 10px; }
 
-.header {
+.l-content {
   width: 100%;
-  display: flex; }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
 
-.content {
+.l-footer {
   width: 100%;
-  display: flex; }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
 
-.footer {
-  width: 100%;
-  display: flex; }
+.title {
+  margin-top: 2em; }
+  .title--primary {
+    font-size: 2.5em; }
+  .title--second {
+    text-transform: uppercase;
+    font-size: 0.8em; }
+  .title--element {
+    background-color: red; }
+
+.nav--dataUser {
+  list-style-type: none; }
+
+.nav--dataUserElem {
+  display: inline; }
+
+.primaryNav {
+  height: 50px; }
+  .primaryNav--navElement {
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
+    background-color: orange; }
+    .primaryNav--navElement:before {
+      content: "";
+      width: 4px;
+      height: 100%;
+      background-color: green; }
 
 /*# sourceMappingURL=style.css.map */

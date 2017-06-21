@@ -1,12 +1,71 @@
-.header
+.l-header
   width: 100%
   display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: stretch
+
+.title
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  align-content: flex-start
+  &--primary
+    position: relative
+    right: 8px
+  &--second
+    letter-spacing: 4px
+  &--element
+    display: none
+
+.ribbon
+  display: inline
+  position: absolute
+  left: -1px
+  transform: rotate(-45deg)
+  top: 31px
+
+.nav
+
+  &--dataUser
+    text-align: center
+    padding: 0
+  &--dataUserElem
+    margin-left: 20px
+    margin-right: 20px
 
 
-.content
+.link
+  text-align: center
+  margin: 20px
+  &--social
+    margin: 20px
+
+
+.primaryNav
+  padding: 0
+  display: block
+  margin: auto
+  margin-top: 10px
+  &--navElement
+
+
+
+
+
+
+
+
+
+.l-content
   width: 100%
   display: flex
+  flex-direction: column
+  justify-content: space-around
 
-.footer
+.l-footer
   width: 100%
   display: flex
+  flex-direction: row
+  justify-content: space-around
