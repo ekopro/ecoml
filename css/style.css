@@ -29,47 +29,6 @@ p {
   justify-content: space-around;
   align-items: stretch; }
 
-.title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-content: flex-start; }
-  .title--primary {
-    position: relative;
-    right: 8px; }
-  .title--second {
-    letter-spacing: 4px; }
-  .title--element {
-    display: none; }
-
-.ribbon {
-  display: inline;
-  position: absolute;
-  left: -1px;
-  transform: rotate(-45deg);
-  top: 31px; }
-
-.nav--dataUser {
-  text-align: center;
-  padding: 0; }
-
-.nav--dataUserElem {
-  margin-left: 20px;
-  margin-right: 20px; }
-
-.link {
-  text-align: center;
-  margin: 20px; }
-  .link--social {
-    margin: 20px; }
-
-.primaryNav {
-  padding: 0;
-  display: block;
-  margin: auto;
-  margin-top: 10px; }
-
 .l-content {
   width: 100%;
   display: flex;
@@ -83,22 +42,44 @@ p {
   justify-content: space-around; }
 
 .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
   margin-top: 2em; }
-  .title--primary {
-    font-size: 2.5em; }
   .title--second {
+    letter-spacing: 4px;
     text-transform: uppercase;
     font-size: 0.8em; }
   .title--element {
+    color: white;
+    font-size: 0.6em;
+    height: 4em;
+    position: relative;
+    top: 37px;
+    right: 110px;
     background-color: red; }
+  .title--primary {
+    position: relative;
+    right: 8px;
+    font-size: 2.5em; }
 
 .nav--dataUser {
+  text-align: center;
+  padding: 0;
   list-style-type: none; }
 
 .nav--dataUserElem {
+  margin-left: 20px;
+  margin-right: 20px;
   display: inline; }
 
 .primaryNav {
+  padding: 0;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
   height: 50px; }
   .primaryNav--navElement {
     display: inline-flex;
@@ -110,5 +91,16 @@ p {
       width: 4px;
       height: 100%;
       background-color: green; }
+
+.ribbon {
+  position: absolute;
+  top: 0;
+  bottom: 0; }
+
+.link {
+  text-align: center;
+  margin: 20px; }
+  .link--social {
+    margin: 20px; }
 
 /*# sourceMappingURL=style.css.map */
