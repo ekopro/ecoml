@@ -5,23 +5,38 @@
   justify-content: center
   align-content: flex-start
 
+
   &--second
+    display: block
+    position: relative
+    top: -3px
+    left: -1px
+    font-family: 'Noto Sans', sans-serif
+    font-size: 12px
+    line-height: 13.2px
+    vertical-align: baseline
     letter-spacing: 4px
-    text-transform: uppercase
-    font-size: 0.8em
+    word-spacing: 0px
+    font-weight: 500
+
   &--element
     color: white
-    font-size: 0.6em
-    height: 4em
+    font-family: Montserrat, sans-serif
+    font-size: 8px
     position: relative
-    top: 37px
-    right: 110px
+    top: 36px
+    right: 112px
     background-color: red
-  margin-top: 2em
+    margin-top: 2em
+    font-weight: normal
+    padding: 3px
   &--primary
+    font-family: Montserrat, sans-serif
+    font-size: 3em
     position: relative
+    top: -6px
     right: 8px
-    font-size: 2.5em
+    font-weight: 500
 
 .nav
   &--dataUser
@@ -29,8 +44,8 @@
     padding: 0
     list-style-type: none
   &--dataUserElem
-    margin-left: 20px
-    margin-right: 20px
+    margin-left: 0px
+    margin-right: 0px
     display: inline
 
 
@@ -68,3 +83,27 @@
   margin: 20px
   &--social
     margin: 20px
+
+.search
+  height: 403px
+  background-color: black
+  color: white
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  &--title
+    width: 1000px
+    padding-left: 100px
+    padding-right: 100px
+    margin: 10px auto
+    font-size: 42px
+    text-align: center
+  &--formInputSearch
+    width: 600px
+    height: 40px
+  &--formInputSubmit
+    width: 40px
+    height: 40px
+    background: url(../img/can.png) no-repeat orange center
+    z-index: 1
